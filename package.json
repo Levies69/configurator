@@ -5,14 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --legacy-peer-deps",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "@react-spring/three": "^9.7.5",
     "@react-three/drei": "^9.86.7",
-    "@react-three/fiber": "^9.1.2",
+    "@react-three/fiber": "^8.13.0",
     "@types/three": "^0.176.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
